@@ -9,7 +9,7 @@
 
 body {
 	margin: 0 auto;
-	font-family: 'Circular Std', sans-serif;
+	font-family: 'Circular', sans-serif;
 }
 
 .small-caps {
@@ -26,7 +26,7 @@ body {
 
 
 h1 {
-	font-family: Archia;
+	font-family: 'Archia';
 	font-size: 45px;
 	font-style: normal;
 	font-weight: 400;
@@ -89,7 +89,7 @@ nav a:hover {
 }
 
 #letter {
-	font-family: Circular Std;
+	font-family: 'Circular';
 	font-size: 24px;
 	font-style: normal;
 	font-weight: 400;
@@ -102,7 +102,7 @@ nav a:hover {
 }
 
 #bottom {
-	font-family: Circular Std;
+	font-family: 'Circular';
 	font-size: 24px;
 	font-style: normal;
 	font-weight: 400;
@@ -134,7 +134,7 @@ nav a:hover {
 }
 
 #signature {
-	font-family: Hijrnotes PERSONAL USE ONLY;
+	font-family: 'Tangerine';
 	font-size: 45px;
 	display: inline-block;
 	margin-top: 35px;
@@ -227,8 +227,6 @@ nav a:hover {
 
 
 
-
-
 @media screen and (max-width: 800px) {
 
 }
@@ -253,3 +251,38 @@ nav a:hover {
 @media screen and (max-width: 340px) {
 
 }
+
+
+
+@font-face {
+  font-family: 'Archia';
+  src: url('fonts/archia_regular.eot'); /* IE9 Compat Modes */
+  src: url('fonts/archia_regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/archia_regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fonts/archia_regular.woff') format('woff'), /* Pretty Modern Browsers */
+       url('fonts/archia_regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('fonts/archia_regular.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+
+
+Circular Std
+@font-face {
+    font-family: 'Circular';
+    src: url('/fonts/CircularStd-Light.eot?#iefix') format('embedded-opentype'),url('/fonts/CircularStd-Light.woff2') format('woff2'),url('/fonts/CircularStd-Light.woff') format('woff'),url('/fonts/CircularStd-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Circular';
+    src: url('/fonts/CircularStd-Book.eot?#iefix') format('embedded-opentype'),url('/fonts/CircularStd-Book.woff2') format('woff2'),url('/fonts/CircularStd-Book.woff') format('woff'),url('/fonts/CircularStd-Book.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Circular';
+    src: url('/fonts/CircularStd-Medium.eot?#iefix') format('embedded-opentype'),url('/fonts/CircularStd-Medium.woff2') format('woff2'),url('/fonts/CircularStd-Medium.woff') format('woff'),url('/fonts/CircularStd-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
