@@ -13,7 +13,7 @@ body {
 }
 
 .small-caps {
-	font-family: 'Formular';
+	font-family: 'formular-bold-webfont';
 	font-size: 12px;
 	font-style: normal;
 	font-weight: 700;
@@ -292,6 +292,34 @@ nav a:hover {
     url('/fonts/CircularStd-Medium.woff') format('woff'),
     url('/fonts/CircularStd-Medium.ttf') format('truetype');
     font-weight: 500;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'formular-bold-webfont';
+    src: url('/fonts/formular-bold-webfont.woff2') format('woff2'),
+         url('/fonts/formular-bold-webfont.woff') format('woff'),
+         url('/fonts/formular-bold-webfont.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'formular-light-webfont';
+    src: url('/fonts/formular-light-webfont.woff2') format('woff2'),
+         url('/fonts/formular-light-webfont.woff') format('woff'),
+         url('/fonts/formular-light-webfont.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'formular-webfont';
+    src: url('/fonts/formular-webfont.woff2') format('woff2'),
+         url('/fonts/formular-webfont.woff') format('woff'),
+         url('/fonts/formular-webfont.otf') format('opentype');
+    font-weight: normal;
     font-style: normal;
 }
 
