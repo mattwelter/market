@@ -9,11 +9,11 @@
 
 body {
 	margin: 0 auto;
-	font-family: 'Circular', sans-serif;
+	font-family: 'CircularStd-Book', sans-serif;
 }
 
 .small-caps {
-	font-family: Formular;
+	font-family: 'Formular';
 	font-size: 12px;
 	font-style: normal;
 	font-weight: 700;
@@ -26,7 +26,7 @@ body {
 
 
 h1 {
-	font-family: 'Archia';
+	font-family: 'archia-regular';
 	font-size: 45px;
 	font-style: normal;
 	font-weight: 400;
@@ -89,7 +89,7 @@ nav a:hover {
 }
 
 #letter {
-	font-family: 'Circular';
+	font-family: 'CircularStd-Book';
 	font-size: 24px;
 	font-style: normal;
 	font-weight: 400;
@@ -102,7 +102,7 @@ nav a:hover {
 }
 
 #bottom {
-	font-family: 'Circular';
+	font-family: 'CircularStd-Book';
 	font-size: 24px;
 	font-style: normal;
 	font-weight: 400;
@@ -134,7 +134,7 @@ nav a:hover {
 }
 
 #signature {
-	font-family: 'Tangerine';
+	font-family: 'Hijrnotes PERSONAL USE ONLY', 'Tangerine';
 	font-size: 45px;
 	display: inline-block;
 	margin-top: 35px;
@@ -194,11 +194,14 @@ nav a:hover {
 
 @media screen and (max-width: 670px) {
 	#wrapper, #bottom section {
-		width: 375px;
+		width: 340px;
 	}
 	h1 {
 		margin-bottom: 60px;
 		margin-top: 60px;
+	}
+	.break {
+		display: none;
 	}
 	#hero-image {
 		display: none;
@@ -218,9 +221,6 @@ nav a:hover {
 	#bottom p:nth-child(2) {
 		margin-left: 0px;
 		margin-top: 0px;
-	}
-	#bottom p:nth-child(1) {
-
 	}
 }
 
@@ -255,20 +255,20 @@ nav a:hover {
 
 
 @font-face {
-  font-family: 'Archia';
-  src: url('fonts/archia-regular.eot'); /* IE9 Compat Modes */
-  src: url('fonts/archia-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('fonts/archia-regular.woff2') format('woff2'), /* Super Modern Browsers */
-       url('fonts/archia-regular.woff') format('woff'), /* Pretty Modern Browsers */
-       url('fonts/archia-regular.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('fonts/archia-regular.svg#svgFontName') format('svg'); /* Legacy iOS */
+  font-family: 'archia-regular';
+  src: url('/fonts/archia-regular.eot'); /* IE9 Compat Modes */
+  src: url('/fonts/archia-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('/fonts/archia-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('/fonts/archia-regular.woff') format('woff'), /* Pretty Modern Browsers */
+       url('/fonts/archia-regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('/fonts/archia-regular.svg#svgFontName') format('svg'); /* Legacy iOS */
 }
 
 
 
 
 @font-face {
-    font-family: 'Circular';
+    font-family: 'CircularStd-Light';
     src: url('/fonts/CircularStd-Light.eot?#iefix') format('embedded-opentype'),
     url('/fonts/CircularStd-Light.woff2') format('woff2'),
     url('/fonts/CircularStd-Light.woff') format('woff'),
@@ -277,7 +277,7 @@ nav a:hover {
     font-style: normal;
 }
 @font-face {
-    font-family: 'Circular';
+    font-family: 'CircularStd-Book';
     src: url('/fonts/CircularStd-Book.eot?#iefix') format('embedded-opentype'),
     url('/fonts/CircularStd-Book.woff2') format('woff2'),
     url('/fonts/CircularStd-Book.woff') format('woff'),
@@ -286,7 +286,7 @@ nav a:hover {
     font-style: normal;
 }
 @font-face {
-    font-family: 'Circular';
+    font-family: 'CircularStd-Medium';
     src: url('/fonts/CircularStd-Medium.eot?#iefix') format('embedded-opentype'),
     url('/fonts/CircularStd-Medium.woff2') format('woff2'),
     url('/fonts/CircularStd-Medium.woff') format('woff'),
